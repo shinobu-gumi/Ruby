@@ -6,12 +6,15 @@ class Game
 
     program_hand = rand(3)
     jankens = ["グー", "チョキ", "パー"]
-    puts "あなたの手: #{jankens[player_hand]}, プログラムの手: #{jankens[program_hand]}"
+    puts "あなたの手: #{jankens[player_hand]}"
+    sleep(1)
+    puts "プログラムの手: #{jankens[program_hand]}"
 
     if player_hand == program_hand
       next_game = true
 
       puts "あいこで"
+      sleep(1)
 
       #じゃんけんを繰り返す
       while next_game do
