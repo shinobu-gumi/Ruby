@@ -5,3 +5,6 @@
 
 
 *janken
+
+
+*sample_minitest
