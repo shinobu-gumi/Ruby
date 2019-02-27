@@ -8,3 +8,4 @@
 
 
 *sample_minitest
+minitestのひな形
